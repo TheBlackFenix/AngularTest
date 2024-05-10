@@ -1,0 +1,10 @@
+@if (chartOptions) {
+  <div id="chart">
+    <apx-chart
+      [series]="chartOptions.series!"
+      [chart]="chartOptions.chart!"
+      [title]="chartOptions.title!"
+      [dataLabels]="chartOptions.dataLabels!"
+      [plotOptions]="chartOptions.plotOptions!"></apx-chart>
+  </div>
+}
